@@ -1,0 +1,42 @@
+.table-wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-decoration: none;
+    width: 83%;
+    background: gainsboro;
+    margin: 2px;
+  }  
+  .sidenav {
+    height: 100%;
+    width:160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+  }
+  .table-wrapper{
+    margin-left: 160px;
+    padding: 0px 10px;
+    }
+  
